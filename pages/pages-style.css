@@ -1,0 +1,82 @@
+html { 
+    background: url(../img/smoke.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .body {
+    margin: 0;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: monospace;
+    font-size: 200%;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    color: rgb(165, 165, 165);
+}
+
+.logo-subtext {
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+}
+
+  .fuck-you-box {
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+    margin-top: 300px;
+    color: white;
+  }
+
+  .fuck-you-text {
+    font-family: monospace;
+    text-align: center;
+    color: white;
+    font-size: 350%;
+    padding: 10px;
+    border: solid;
+    border-radius: 10px 10px;
+  }
+
+  .fuck-off-home {
+    font-family: monospace;
+    color: white;
+    border-color: white;
+    padding: 5px 5px;
+    border-radius: 10px 10px;
+    background: none;
+    margin-top: 20px;
+    border: outset;
+  }
+
+  .fuck-off-home:hover {
+    color: red;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.301);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
