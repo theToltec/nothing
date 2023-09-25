@@ -59,7 +59,7 @@ html {
   /* START body */
 
 .container {
-    height: 375px;
+    height: 425px;
     width: auto;
     display: flex;
     flex-direction: column;
