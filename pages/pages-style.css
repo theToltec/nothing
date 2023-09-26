@@ -38,6 +38,7 @@ html {
 }
 
   .fuck-you-box {
+    font-family: monospace;
     height: 400px;
     width: 300px;
     display: flex;
