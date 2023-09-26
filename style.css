@@ -33,6 +33,10 @@ html {
     padding-left: 20px;
 }
 
+.header-links {
+    flex-wrap: wrap;
+}
+
 .link1,
 .link2,
 .link3 {
@@ -59,7 +63,7 @@ html {
   /* START body */
 
 .container {
-    height: 375px;
+    height: 425px;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -85,6 +89,7 @@ html {
     font-family: monospace;
     color: white;
     border-color: white;
+    margin-top: 62px;
     margin-left: 40px;
     padding: 15px 40px;
     background: none;
@@ -99,12 +104,14 @@ html {
 
   .footer {
     position: fixed;
-    left: 0;
-    bottom: 0;
+
+    color: white;
     height: 40px;
+    bottom: 0;
+    left: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.301);
-    color: white;
+    
     display: flex;
     justify-content: center;
     align-items: center;

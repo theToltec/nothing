@@ -10,6 +10,13 @@ html {
     margin: 0;
   }
 
+  .body-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .header {
     display: flex;
     justify-content: space-between;
@@ -37,8 +44,6 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 45%;
-    margin-top: 300px;
     color: white;
   }
 
