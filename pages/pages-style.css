@@ -11,7 +11,7 @@ html {
   }
 
   .body-container {
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +52,7 @@ html {
     font-family: monospace;
     text-align: center;
     color: white;
-    font-size: 350%;
+    font-size: 250%;
     padding: 10px;
     border: solid;
     border-radius: 10px 10px;
